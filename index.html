@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coffee Shop Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+
+        <!-- Header -->
+        
+        <header class="primary__header">
+            <div class="container">
+
+                <!-- Navbar Section -->
+                
+                <nav class="navbar">
+                        <div class="navbar-toggle" id="mobile-menu">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    <nav class="navbar__container">
+                        
+                        <img src="images/logo-coffee.png" class="logo__wrapper alt="Manage">
+                        <ul class="navbar-menu">
+                            <li class="navbar-item navbar-first-item">
+                                <a href="#" class="navbar-links" id="home-page">Home</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="navbar-links" id="about-page">About Us</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="navbar-links" id="menu-page">Menu</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="navbar-links" id="prices-pace">Prices</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="navbar-links" id="info-page">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </nav>
+                  
+                <!-- Hero Section -->
+
+                <div class="hero" id="home">
+                    <div class="hero__container">
+                        <h1 class="hero__title">Exclusive Coffee</h1>
+                        <h2 class="hero__sub-title">Taste of Hapiness</h2>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+        <div class="fading-animation">
+            <main>
+
+                <!-- About Us Section -->
+                <div class="about-us__container">
+                    <div id="about-us">
+                        <div class="container" id="switching-the-order">
+                            <div class="img__container"><img id="coffee-shop" src="images/image-coffee-shop.png" alt="Manage"></div>
+                        
+                            <div class="about-us__content">
+                                <h1 class="about-us__title">It&#8217;s Coffee Time</h1>
+                                <h2 class="about-us__sub-title">The World Can Wait</h2>
+                                <p class="about-us__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  <br>  <br>
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                <div class="about-us__btn">
+                                    <button class="read-more__button"><span>Read More </span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+
+                <!-- Our Menu Section -->
+
+                <div class="our-menu__container">
+                    <div id="our-menu" class="container">
+                        <div class="our-menu__content">
+                            <h1 class="our-menu__title">Our Menu</h1>
+                            <p class="our-menu__description">
+                                <div class="our-menu__quote">&#34;The smell of fresh-made coffee is one of the world's greatest inventions.&#34;</div>
+                                <div class="our-menu__author">- Hugh Jackman</div>
+                            </p>
+                        </div>
+
+                        <div class="our-menu__images">
+                            
+                            <div class="coffee-1 coffee-cups">
+                                
+                                    <img src="images/coffee-cup-1.png" alt="cup-1">
+                                
+                            </div>
+                            <div class="coffee-2 coffee-cups">
+                                
+                                    <img src="images/coffee-cup-2.png" alt="cup-2">
+                                
+                            </div>
+                            <div class="coffee-3 coffee-cups">
+                                
+                                    <img src="images/coffee-cup-3.png" alt="cup-3">
+                                
+                            </div>
+                            <div class="coffee-4 coffee-cups">
+                                
+                                    <img src="images/coffee-cup-4.png" alt="cup-4">
+                                
+                            </div>  
+                            <div class="coffee-5 coffee-cups">
+                                
+                                    <img src="images/coffee-cup-5.png" alt="cup-5">
+                                
+                            </div>
+                            <div class="coffee-6 coffee-cups">
+                                
+                                    <img src="images/coffee-cup-6.png" alt="cup-6">
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </main>
+
+                <!-- Footer Section -->
+            <footer>
+
+                <div class="footer__container">
+                    <div class="container" id="footer">
+                        <div class="contact-us__wrapper">
+                            <h1 class="contact-us__title">Contact Us</h1>
+                            <h2 class="contact-us__sub-title">Send us a message</h2>
+                            <form action="" method="get" id="form__wrapper">
+                                <label></label>
+                                <input type="text" id="fname" name="fname" placeholder="Full name" class="input-form" required>
+                                <label></label>
+                                <input type="email" id="yemail" name="yemail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Your Email" class="input-form" required>
+                                <label></label>
+                                <textarea rows="3" id="ytext" placeholder="Some text here" class="input-form" required></textarea>
+                                <div class="contact-us__button">
+                                    <div class="submit-items">
+                                        <input type="submit" value="Submit" id="submit-button" class="submit-item">
+                                        <span class="submit-item"></span>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </form>
+                        </div>
+
+                        <div class="sitemap__wrapper">
+                            <h1 class="contact-us__title">Sitemap</h1>
+                            <h2 class="contact-us__sub-title">All our pages</h2>
+                            <ul class="links__wrapper">
+                                <li><a href="#" id="home__link">- Home</a></li>
+                                <li><a href="#" id="about-us__link">- About Us</a></li>
+                                <li><a href="#" id="feature__link">- Feature</a></li>
+                                <li><a href="#" id="pricing__link">- Pricing</a></li>
+                                <li><a href="#" id="contact-us__link">- Contact Us</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="social-media__wrapper">
+                            <img src="images/logo-coffee.png" class="logo__wrapper" alt="Manage">
+                            <ul class="social-media__list">
+                                <li href="#">
+                                    <img id="phone-solid" src="images/phone-solid.svg" alt="Manage">
+                                    <p id="number">(08) 400 2000</p>
+                                </li>
+                                <li href="#">
+                                    <img id="envelope-solid" src="images/envelope-solid.svg" alt="Manage">
+                                    <p id="email">email@addres.com</p>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <div class="copyright-message">
+                        <p id="copyright-text">Copyright 2022 All Rights Reserved Company Name.</p>
+                    </div>
+                </div>
+
+            </footer>
+        </div>
+
+        
+        
+        
+        <script src="app.js"></script>
+    </body>
+</html>
